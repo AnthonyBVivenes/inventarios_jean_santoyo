@@ -26,22 +26,22 @@ Partial Class CuadroCompras
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtIngresar = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.cbxProveedores = New System.Windows.Forms.ComboBox()
-        Me.txtValorComprado = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.lbTotal = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtPrecio = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtCantidad = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtnombre = New System.Windows.Forms.TextBox()
-        Me.id = New System.Windows.Forms.TextBox()
         Me.Código = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.id = New System.Windows.Forms.TextBox()
+        Me.txtnombre = New System.Windows.Forms.TextBox()
+        Me.txtCantidad = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.cbxProveedores = New System.Windows.Forms.ComboBox()
         Me.btn_modificar = New System.Windows.Forms.Button()
+        Me.txtValorComprado = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbTotal = New System.Windows.Forms.Label()
         Me.tabla = New System.Windows.Forms.DataGridView()
         Me.cod = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -109,64 +109,6 @@ Partial Class CuadroCompras
         Me.Label8.TabIndex = 37
         Me.Label8.Text = "PROVEEDOR:"
         '
-        'cbxProveedores
-        '
-        Me.cbxProveedores.FormattingEnabled = True
-        Me.cbxProveedores.Location = New System.Drawing.Point(414, 58)
-        Me.cbxProveedores.Name = "cbxProveedores"
-        Me.cbxProveedores.Size = New System.Drawing.Size(112, 21)
-        Me.cbxProveedores.TabIndex = 36
-        '
-        'txtValorComprado
-        '
-        Me.txtValorComprado.BackColor = System.Drawing.Color.White
-        Me.txtValorComprado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtValorComprado.Location = New System.Drawing.Point(414, 84)
-        Me.txtValorComprado.Name = "txtValorComprado"
-        Me.txtValorComprado.Size = New System.Drawing.Size(112, 26)
-        Me.txtValorComprado.TabIndex = 35
-        Me.txtValorComprado.Text = "0"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(280, 87)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(105, 20)
-        Me.Label7.TabIndex = 34
-        Me.Label7.Text = "PRECIO(c/u):"
-        '
-        'lbTotal
-        '
-        Me.lbTotal.AutoSize = True
-        Me.lbTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbTotal.Location = New System.Drawing.Point(416, 31)
-        Me.lbTotal.Name = "lbTotal"
-        Me.lbTotal.Size = New System.Drawing.Size(18, 20)
-        Me.lbTotal.TabIndex = 33
-        Me.lbTotal.Text = "0"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(280, 31)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(122, 20)
-        Me.Label6.TabIndex = 32
-        Me.Label6.Text = "Total ingresado:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(280, 119)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(139, 20)
-        Me.Label3.TabIndex = 30
-        Me.Label3.Text = "INGRESAR(unid):"
-        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.txtPrecio)
@@ -196,6 +138,26 @@ Partial Class CuadroCompras
         Me.txtPrecio.TabIndex = 27
         Me.txtPrecio.TabStop = False
         '
+        'Código
+        '
+        Me.Código.AutoSize = True
+        Me.Código.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Código.Location = New System.Drawing.Point(6, 16)
+        Me.Código.Name = "Código"
+        Me.Código.Size = New System.Drawing.Size(142, 20)
+        Me.Código.TabIndex = 20
+        Me.Código.Text = "IDENTIFICACIÓN:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(5, 63)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(83, 20)
+        Me.Label1.TabIndex = 19
+        Me.Label1.Text = "NOMBRE:"
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -205,6 +167,27 @@ Partial Class CuadroCompras
         Me.Label5.Size = New System.Drawing.Size(145, 20)
         Me.Label5.TabIndex = 26
         Me.Label5.Text = "PRECIO(de venta):"
+        '
+        'id
+        '
+        Me.id.Enabled = False
+        Me.id.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.id.Location = New System.Drawing.Point(8, 34)
+        Me.id.Name = "id"
+        Me.id.Size = New System.Drawing.Size(114, 26)
+        Me.id.TabIndex = 23
+        Me.id.TabStop = False
+        '
+        'txtnombre
+        '
+        Me.txtnombre.BackColor = System.Drawing.Color.White
+        Me.txtnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnombre.Location = New System.Drawing.Point(8, 82)
+        Me.txtnombre.Name = "txtnombre"
+        Me.txtnombre.ReadOnly = True
+        Me.txtnombre.Size = New System.Drawing.Size(246, 26)
+        Me.txtnombre.TabIndex = 22
+        Me.txtnombre.TabStop = False
         '
         'txtCantidad
         '
@@ -227,46 +210,13 @@ Partial Class CuadroCompras
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "STOCK(disponible):"
         '
-        'txtnombre
+        'cbxProveedores
         '
-        Me.txtnombre.BackColor = System.Drawing.Color.White
-        Me.txtnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnombre.Location = New System.Drawing.Point(8, 82)
-        Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.ReadOnly = True
-        Me.txtnombre.Size = New System.Drawing.Size(246, 26)
-        Me.txtnombre.TabIndex = 22
-        Me.txtnombre.TabStop = False
-        '
-        'id
-        '
-        Me.id.Enabled = False
-        Me.id.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.id.Location = New System.Drawing.Point(8, 34)
-        Me.id.Name = "id"
-        Me.id.Size = New System.Drawing.Size(114, 26)
-        Me.id.TabIndex = 23
-        Me.id.TabStop = False
-        '
-        'Código
-        '
-        Me.Código.AutoSize = True
-        Me.Código.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Código.Location = New System.Drawing.Point(6, 16)
-        Me.Código.Name = "Código"
-        Me.Código.Size = New System.Drawing.Size(142, 20)
-        Me.Código.TabIndex = 20
-        Me.Código.Text = "IDENTIFICACIÓN:"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(5, 63)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 20)
-        Me.Label1.TabIndex = 19
-        Me.Label1.Text = "NOMBRE:"
+        Me.cbxProveedores.FormattingEnabled = True
+        Me.cbxProveedores.Location = New System.Drawing.Point(414, 58)
+        Me.cbxProveedores.Name = "cbxProveedores"
+        Me.cbxProveedores.Size = New System.Drawing.Size(112, 21)
+        Me.cbxProveedores.TabIndex = 36
         '
         'btn_modificar
         '
@@ -275,12 +225,62 @@ Partial Class CuadroCompras
         Me.btn_modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_modificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_modificar.ForeColor = System.Drawing.Color.Black
-        Me.btn_modificar.Location = New System.Drawing.Point(443, 172)
+        Me.btn_modificar.Location = New System.Drawing.Point(404, 172)
         Me.btn_modificar.Name = "btn_modificar"
-        Me.btn_modificar.Size = New System.Drawing.Size(120, 30)
+        Me.btn_modificar.Size = New System.Drawing.Size(159, 30)
         Me.btn_modificar.TabIndex = 29
-        Me.btn_modificar.Text = "INGRESAR"
+        Me.btn_modificar.Text = "Registrar orden"
         Me.btn_modificar.UseVisualStyleBackColor = False
+        '
+        'txtValorComprado
+        '
+        Me.txtValorComprado.BackColor = System.Drawing.Color.White
+        Me.txtValorComprado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtValorComprado.Location = New System.Drawing.Point(414, 84)
+        Me.txtValorComprado.Name = "txtValorComprado"
+        Me.txtValorComprado.Size = New System.Drawing.Size(112, 26)
+        Me.txtValorComprado.TabIndex = 35
+        Me.txtValorComprado.Text = "0"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(280, 31)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(122, 20)
+        Me.Label6.TabIndex = 32
+        Me.Label6.Text = "Total ingresado:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(280, 87)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(74, 20)
+        Me.Label7.TabIndex = 34
+        Me.Label7.Text = "PRECIO:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(280, 119)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(99, 20)
+        Me.Label3.TabIndex = 30
+        Me.Label3.Text = "INGRESAR:"
+        '
+        'lbTotal
+        '
+        Me.lbTotal.AutoSize = True
+        Me.lbTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbTotal.Location = New System.Drawing.Point(416, 31)
+        Me.lbTotal.Name = "lbTotal"
+        Me.lbTotal.Size = New System.Drawing.Size(18, 20)
+        Me.lbTotal.TabIndex = 33
+        Me.lbTotal.Text = "0"
         '
         'tabla
         '
